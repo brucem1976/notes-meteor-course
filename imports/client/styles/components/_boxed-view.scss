@@ -1,7 +1,6 @@
 // generic box-like view for many components
 .boxed-view {
   align-items: center;
-  background: $boxed-view-overlay-bg;
   display: flex; // flex-box enables lots of css properties
   justify-content: center;
   height: 100vh; // 100% of viewport height
@@ -19,6 +18,7 @@
 // 2 underscores for element
 .boxed-view__box {
   background-color: $boxed-view-bg;
+  border: 1px solid $boxed-view-border-color;
   padding: 2.4rem;
   text-align: center;
   width: 24rem;
